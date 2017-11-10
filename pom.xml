@@ -198,6 +198,10 @@
       <id>boundless</id>
       <url>https://repo.boundlessgeo.com/main</url>
     </repository>
+    <repository>
+      <id>JBoss</id>
+      <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/</url>
+    </repository>
   </repositories>
 
     <profiles>
