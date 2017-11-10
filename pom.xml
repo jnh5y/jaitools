@@ -193,6 +193,13 @@
         </repository>
     </distributionManagement>
 
+  <repositories>
+    <repository>
+      <id>boundless</id>
+      <url>https://repo.boundlessgeo.com/main</url>
+    </repository>
+  </repositories>
+
     <profiles>
         <profile>
             <id>build-javadocs</id>
