@@ -193,6 +193,7 @@
         </repository>
         <repository>
             <id>Geotoolkit</id>
+            <name>jaitools staging repository</name>
             <url>http://maven.geotoolkit.org/</url>
         </repository>
     </distributionManagement>
