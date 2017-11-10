@@ -191,6 +191,10 @@
             <name>jaitools staging repository</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
+        <repository>
+            <id>Geotoolkit</id>
+            <url>http://maven.geotoolkit.org/</url>
+        </repository>
     </distributionManagement>
 
   <repositories>
