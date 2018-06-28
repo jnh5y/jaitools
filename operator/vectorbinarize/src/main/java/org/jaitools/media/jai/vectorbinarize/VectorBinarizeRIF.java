@@ -75,7 +75,7 @@ public class VectorBinarizeRIF implements RenderedImageFactory {
         
         if (obj instanceof Polygonal) {
             // defensively copy the input Geometry
-            Geometry g = (Geometry) ((Geometry)obj).clone();
+            Geometry g = ((Geometry)obj).copy();
             pg = PreparedGeometryFactory.prepare(g);
             
         } else if (obj instanceof PreparedGeometry) {

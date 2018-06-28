@@ -712,7 +712,7 @@ public class ROIGeometry extends ROI {
      */
     @Override
     public ROI transform(AffineTransform at) {
-        Geometry cloned = (Geometry) theGeom.getGeometry().clone();
+        Geometry cloned = theGeom.getGeometry().copy();
         cloned.apply(new AffineTransformation(at.getScaleX(), at.getShearX(), at.getTranslateX(), 
                 at.getShearY(), at.getScaleY(), at.getTranslateY()));
         if (useFixedPrecision){

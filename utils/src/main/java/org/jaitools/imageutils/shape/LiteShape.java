@@ -66,7 +66,7 @@ public class LiteShape implements Shape, Cloneable {
      */
     public LiteShape(Geometry geom) {
         if (geom != null){
-            this.geometry = (Geometry) geom.clone();
+            this.geometry = geom.copy();
         }
     }
 
@@ -77,7 +77,7 @@ public class LiteShape implements Shape, Cloneable {
      * @param g
      */
     public void setGeometry(Geometry g) {
-        this.geometry = (Geometry) g.clone();
+        this.geometry = g.copy();
     }
 
     /**
