@@ -187,9 +187,9 @@
             <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
         <repository>
-            <id>Geotoolkit</id>
+            <id>jaitools-staging</id>
             <name>jaitools staging repository</name>
-            <url>http://maven.geotoolkit.org/</url>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
     </distributionManagement>
 
