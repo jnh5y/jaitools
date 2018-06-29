@@ -195,16 +195,9 @@
 
     <repositories>
         <repository>
-            <id>boundless</id>
-            <url>https://repo.boundlessgeo.com/main</url>
-        </repository>
-        <repository>
-            <id>JBoss</id>
-            <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/</url>
-        </repository>
-        <repository>
-            <id>Geotoolkit</id>
-            <url>http://maven.geotoolkit.org/</url>
+            <id>osgeo</id>
+            <name>Open Source Geospatial Foundation - Maven 2 repo</name>
+            <url>dav:http://download.osgeo.org/webdav/geotools/</url>
         </repository>
     </repositories>
 
